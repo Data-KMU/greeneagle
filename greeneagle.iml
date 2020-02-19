@@ -16,6 +16,121 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="Quarkus (deployment)">
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-deployment/1.1.1.Final/quarkus-resteasy-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-vertx-http-deployment/1.1.1.Final/quarkus-vertx-http-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-vertx-core-deployment/1.1.1.Final/quarkus-vertx-core-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-netty-deployment/1.1.1.Final/quarkus-netty-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-server-common-deployment/1.1.1.Final/quarkus-resteasy-server-common-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-arc-deployment/1.1.1.Final/quarkus-arc-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-common-deployment/1.1.1.Final/quarkus-resteasy-common-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-logging-gelf-deployment/1.1.1.Final/quarkus-logging-gelf-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-kafka-client-deployment/1.1.1.Final/quarkus-kafka-client-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-quartz-deployment/1.1.1.Final/quarkus-quartz-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-scheduler-deployment/1.1.1.Final/quarkus-scheduler-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-undertow-websockets-deployment/1.1.1.Final/quarkus-undertow-websockets-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-undertow-deployment/1.1.1.Final/quarkus-undertow-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-jackson-deployment/1.1.1.Final/quarkus-resteasy-jackson-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-jackson-deployment/1.1.1.Final/quarkus-jackson-deployment-1.1.1.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="Quarkus (deployment)">
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-deployment/1.1.1.Final/quarkus-resteasy-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-vertx-http-deployment/1.1.1.Final/quarkus-vertx-http-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-vertx-core-deployment/1.1.1.Final/quarkus-vertx-core-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-netty-deployment/1.1.1.Final/quarkus-netty-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-server-common-deployment/1.1.1.Final/quarkus-resteasy-server-common-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-arc-deployment/1.1.1.Final/quarkus-arc-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-common-deployment/1.1.1.Final/quarkus-resteasy-common-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-logging-gelf-deployment/1.1.1.Final/quarkus-logging-gelf-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-kafka-client-deployment/1.1.1.Final/quarkus-kafka-client-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-quartz-deployment/1.1.1.Final/quarkus-quartz-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-scheduler-deployment/1.1.1.Final/quarkus-scheduler-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-undertow-websockets-deployment/1.1.1.Final/quarkus-undertow-websockets-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-undertow-deployment/1.1.1.Final/quarkus-undertow-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-jackson-deployment/1.1.1.Final/quarkus-resteasy-jackson-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-jackson-deployment/1.1.1.Final/quarkus-jackson-deployment-1.1.1.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="Quarkus (deployment)">
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-deployment/1.1.1.Final/quarkus-resteasy-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-vertx-http-deployment/1.1.1.Final/quarkus-vertx-http-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-vertx-core-deployment/1.1.1.Final/quarkus-vertx-core-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-netty-deployment/1.1.1.Final/quarkus-netty-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-server-common-deployment/1.1.1.Final/quarkus-resteasy-server-common-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-arc-deployment/1.1.1.Final/quarkus-arc-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-common-deployment/1.1.1.Final/quarkus-resteasy-common-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-logging-gelf-deployment/1.1.1.Final/quarkus-logging-gelf-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-kafka-client-deployment/1.1.1.Final/quarkus-kafka-client-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-quartz-deployment/1.1.1.Final/quarkus-quartz-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-scheduler-deployment/1.1.1.Final/quarkus-scheduler-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-undertow-websockets-deployment/1.1.1.Final/quarkus-undertow-websockets-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-undertow-deployment/1.1.1.Final/quarkus-undertow-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-jackson-deployment/1.1.1.Final/quarkus-resteasy-jackson-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-jackson-deployment/1.1.1.Final/quarkus-jackson-deployment-1.1.1.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="Quarkus (deployment)">
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-deployment/1.1.1.Final/quarkus-resteasy-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-vertx-http-deployment/1.1.1.Final/quarkus-vertx-http-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-vertx-core-deployment/1.1.1.Final/quarkus-vertx-core-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-netty-deployment/1.1.1.Final/quarkus-netty-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-server-common-deployment/1.1.1.Final/quarkus-resteasy-server-common-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-arc-deployment/1.1.1.Final/quarkus-arc-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-common-deployment/1.1.1.Final/quarkus-resteasy-common-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-logging-gelf-deployment/1.1.1.Final/quarkus-logging-gelf-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-kafka-client-deployment/1.1.1.Final/quarkus-kafka-client-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-quartz-deployment/1.1.1.Final/quarkus-quartz-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-scheduler-deployment/1.1.1.Final/quarkus-scheduler-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-undertow-websockets-deployment/1.1.1.Final/quarkus-undertow-websockets-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-undertow-deployment/1.1.1.Final/quarkus-undertow-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-jackson-deployment/1.1.1.Final/quarkus-resteasy-jackson-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-jackson-deployment/1.1.1.Final/quarkus-jackson-deployment-1.1.1.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library name="Quarkus (deployment)">
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-deployment/1.1.1.Final/quarkus-resteasy-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-vertx-http-deployment/1.1.1.Final/quarkus-vertx-http-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-vertx-core-deployment/1.1.1.Final/quarkus-vertx-core-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-netty-deployment/1.1.1.Final/quarkus-netty-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-server-common-deployment/1.1.1.Final/quarkus-resteasy-server-common-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-arc-deployment/1.1.1.Final/quarkus-arc-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-common-deployment/1.1.1.Final/quarkus-resteasy-common-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-logging-gelf-deployment/1.1.1.Final/quarkus-logging-gelf-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-kafka-client-deployment/1.1.1.Final/quarkus-kafka-client-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-quartz-deployment/1.1.1.Final/quarkus-quartz-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-scheduler-deployment/1.1.1.Final/quarkus-scheduler-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-undertow-websockets-deployment/1.1.1.Final/quarkus-undertow-websockets-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-undertow-deployment/1.1.1.Final/quarkus-undertow-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-jackson-deployment/1.1.1.Final/quarkus-resteasy-jackson-deployment-1.1.1.Final.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-jackson-deployment/1.1.1.Final/quarkus-jackson-deployment-1.1.1.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-resteasy:1.1.1.Final" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-vertx-http:1.1.1.Final" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus.security:quarkus-security:1.0.1.Final" level="project" />
@@ -191,52 +306,6 @@
     <orderEntry type="library" name="Maven: com.github.fge:msg-simple:1.1" level="project" />
     <orderEntry type="library" name="Maven: com.github.fge:btf:1.2" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.spec.javax.xml.bind:jboss-jaxb-api_2.3_spec:2.0.0.Final" level="project" />
-    <orderEntry type="module-library" scope="PROVIDED">
-      <library name="Quarkus (deployment)">
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-deployment/1.1.1.Final/quarkus-resteasy-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-vertx-http-deployment/1.1.1.Final/quarkus-vertx-http-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-vertx-core-deployment/1.1.1.Final/quarkus-vertx-core-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-netty-deployment/1.1.1.Final/quarkus-netty-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-server-common-deployment/1.1.1.Final/quarkus-resteasy-server-common-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-arc-deployment/1.1.1.Final/quarkus-arc-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-common-deployment/1.1.1.Final/quarkus-resteasy-common-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-logging-gelf-deployment/1.1.1.Final/quarkus-logging-gelf-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-kafka-client-deployment/1.1.1.Final/quarkus-kafka-client-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-quartz-deployment/1.1.1.Final/quarkus-quartz-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-scheduler-deployment/1.1.1.Final/quarkus-scheduler-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-undertow-websockets-deployment/1.1.1.Final/quarkus-undertow-websockets-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-undertow-deployment/1.1.1.Final/quarkus-undertow-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-jackson-deployment/1.1.1.Final/quarkus-resteasy-jackson-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-jackson-deployment/1.1.1.Final/quarkus-jackson-deployment-1.1.1.Final.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" scope="PROVIDED">
-      <library name="Quarkus (deployment)">
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-deployment/1.1.1.Final/quarkus-resteasy-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-vertx-http-deployment/1.1.1.Final/quarkus-vertx-http-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-vertx-core-deployment/1.1.1.Final/quarkus-vertx-core-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-netty-deployment/1.1.1.Final/quarkus-netty-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-server-common-deployment/1.1.1.Final/quarkus-resteasy-server-common-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-arc-deployment/1.1.1.Final/quarkus-arc-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-common-deployment/1.1.1.Final/quarkus-resteasy-common-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-logging-gelf-deployment/1.1.1.Final/quarkus-logging-gelf-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-kafka-client-deployment/1.1.1.Final/quarkus-kafka-client-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-quartz-deployment/1.1.1.Final/quarkus-quartz-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-scheduler-deployment/1.1.1.Final/quarkus-scheduler-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-undertow-websockets-deployment/1.1.1.Final/quarkus-undertow-websockets-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-undertow-deployment/1.1.1.Final/quarkus-undertow-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-resteasy-jackson-deployment/1.1.1.Final/quarkus-resteasy-jackson-deployment-1.1.1.Final.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/io/quarkus/quarkus-jackson-deployment/1.1.1.Final/quarkus-jackson-deployment-1.1.1.Final.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="module-library" scope="PROVIDED">
       <library name="Quarkus (deployment)">
         <CLASSES>
