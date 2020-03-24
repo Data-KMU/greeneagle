@@ -9,13 +9,5 @@ import static org.hamcrest.CoreMatchers.is;
 @QuarkusTest
 public class PositionResourceTest {
 
-    @Test
-    public void testHelloEndpoint() {
-        given()
-          .when().get("/theBox/v1/position")
-          .then()
-             .statusCode(200)
-             .body(is("hello"));
-    }
 
 }
