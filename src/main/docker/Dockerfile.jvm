@@ -3,15 +3,15 @@
 #
 # Before building the docker image run:
 #
-# mvn package
+# ./mvnw clean package
 #
 # Then, build the image with:
 #
-# docker build -f src/main/docker/Dockerfile.jvm -t quarkus/code-with-quarkus-jvm .
+# docker build -f src/main/docker/Dockerfile.jvm -t taaja/greeneagle .
 #
 # Then run the container using:
 #
-# docker run -i --rm -p 8080:8080 quarkus/code-with-quarkus-jvm
+# docker run -i --rm -p 8091:8091 taaja/greeneagle
 #
 ###
 FROM fabric8/java-alpine-openjdk8-jre:1.6.5
@@ -26,7 +26,7 @@ RUN adduser -G root --no-create-home --disabled-password 1001 \
 
 COPY target/lib/* /deployments/lib/
 COPY target/*-runner.jar /deployments/app.jar
-EXPOSE 8080
+EXPOSE 8091
 
 # run with user 1001
 USER 1001
