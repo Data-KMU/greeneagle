@@ -1,3 +1,7 @@
+*.tar
+.mvn/
+
+
 lsp/
 # Eclipse
 .project
