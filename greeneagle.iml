@@ -177,6 +177,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="Maven: io.taaja:shared:1.5" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-resteasy:1.1.1.Final" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus:quarkus-vertx-http:1.1.1.Final" level="project" />
     <orderEntry type="library" name="Maven: io.quarkus.security:quarkus-security:1.0.1.Final" level="project" />

@@ -89,7 +89,7 @@ public class KafkaDataService {
         consumerProperties.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, this.offsetReset);
 
         String uuid = UUID.randomUUID().toString();
-        consumerProperties.put(ConsumerConfig.GROUP_ID_CONFIG, "group-" + uuid);
+        consumerProperties.put(ConsumerConfig.GROUP_ID_CONFIG, "greeneagle-" + uuid);
         consumerProperties.put(ConsumerConfig.CLIENT_ID_CONFIG, "client-" + uuid);
         this.kafkaConsumer = new KafkaConsumer(consumerProperties, new LongDeserializer(), new StringDeserializer());
         log.info("kafka created");
