@@ -1,6 +1,6 @@
 package at.taaja.greeneagle;
 
-import io.taaja.messaging.Topics;
+import io.taaja.kafka.Topics;
 import lombok.extern.jbosslog.JBossLog;
 
 import javax.enterprise.context.ApplicationScoped;
