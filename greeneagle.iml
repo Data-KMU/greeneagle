@@ -177,7 +177,7 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="Maven: io.taaja:shared:1.14" level="project" />
+    <orderEntry type="library" name="Maven: io.taaja:shared:1.17" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.10.3" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.10.3" level="project" />
     <orderEntry type="library" name="Maven: org.mongojack:mongojack:4.0.0" level="project" />

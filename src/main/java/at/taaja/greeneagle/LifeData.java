@@ -31,14 +31,8 @@ public class LifeData extends AbstractSocket{
         log.info("user left id " + id +" with error " + throwable.getMessage(), throwable);
     }
 
-    @OnMessage
-    public void onMessage(String message, @PathParam("id") String id) {
-        // nothing
-    }
-
     private String getTopic(String id){
         return Topics.SPATIAL_EXTENSION_LIFE_DATA_TOPIC_PREFIX + id;
     }
-
 
 }

@@ -4,7 +4,6 @@ import io.quarkus.runtime.ShutdownEvent;
 import io.quarkus.runtime.StartupEvent;
 import lombok.extern.jbosslog.JBossLog;
 import org.apache.kafka.clients.consumer.*;
-import org.apache.kafka.common.serialization.LongDeserializer;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 
@@ -39,10 +38,10 @@ public class KafkaDataService {
 
 //     topic -> Queue of Sessions
     private Map<String, Queue<Session>> connections = new ConcurrentHashMap<>();
-    private Consumer<Long, String> kafkaConsumer;
+    private Consumer<String, String> kafkaConsumer;
     private boolean isRunning = false;
     private AtomicBoolean subscriberChanged = new AtomicBoolean(false);
-    private Thread poller;
+    private Thread puller;
 
     public void registerClient(Session session, String topic){
         //is topic already subscribed
@@ -91,19 +90,19 @@ public class KafkaDataService {
         String uuid = UUID.randomUUID().toString();
         consumerProperties.put(ConsumerConfig.GROUP_ID_CONFIG, "greeneagle-" + uuid);
         consumerProperties.put(ConsumerConfig.CLIENT_ID_CONFIG, "client-" + uuid);
-        this.kafkaConsumer = new KafkaConsumer(consumerProperties, new LongDeserializer(), new StringDeserializer());
+        this.kafkaConsumer = new KafkaConsumer(consumerProperties, new StringDeserializer(), new StringDeserializer());
         log.info("kafka created");
 
     }
 
     private void startPolling(){
-        this.poller = new Thread(() -> {
+        this.puller = new Thread(() -> {
             while(isRunning) {
                 if(this.subscriberChanged.getAndSet(false)){
                     this.kafkaConsumer.subscribe(this.connections.keySet());
                 }
-                ConsumerRecords<Long, String> records = this.kafkaConsumer.poll(Duration.ofMillis(100));
-                for(ConsumerRecord<Long, String> record : records){
+                ConsumerRecords<String, String> records = this.kafkaConsumer.poll(Duration.ofMillis(100));
+                for(ConsumerRecord<String, String> record : records){
                     Queue<Session> sessions = this.connections.get(record.topic());
                     if(sessions == null) {
                         log.error("received unknown topic: " + record.topic());
@@ -118,8 +117,8 @@ public class KafkaDataService {
                 }
             }
         });
-        this.poller.setName("poll thread");
-        this.poller.start();
+        this.puller.setName("poll thread");
+        this.puller.start();
     }
 
     void onStop(@Observes ShutdownEvent ev) {
