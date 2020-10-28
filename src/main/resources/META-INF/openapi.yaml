@@ -1,0 +1,11 @@
+openapi: 3.0.1
+info:
+  title: Green Eagle
+  description: Exposes Kafka data stream to Websocket
+  version: "1.3"
+
+servers:
+  - url: http://localhost:8091/
+    description: local dev
+  - url: https://greeneagle.taaja.io/
+    description: production
