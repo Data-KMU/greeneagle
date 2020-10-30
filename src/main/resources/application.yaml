@@ -8,9 +8,9 @@ quarkus:
 kafka:
   bootstrap-servers: "46.101.136.244:9092"
   poll-records: 100
-  auto-commit: false
-  offset-reset: "latest"
-  group-id: "greeneagle"
+  auto-commit: true
+  offset-reset: "earliest"
+  group-name: "greeneagle"
 
 
 

@@ -1,26 +1,15 @@
 package at.taaja.greeneagle;
 
-import io.reactivex.Emitter;
-import io.smallrye.mutiny.Multi;
-import io.smallrye.mutiny.subscription.MultiEmitter;
-import io.smallrye.mutiny.subscription.MultiSubscriber;
 import io.taaja.services.AbstractKafkaConsumerService;
 import lombok.extern.jbosslog.JBossLog;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
-import org.eclipse.microprofile.reactive.streams.operators.ReactiveStreams;
-import org.reactivestreams.Publisher;
-import org.reactivestreams.Subscriber;
-import org.reactivestreams.Subscription;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.websocket.Session;
-import java.util.LinkedList;
 import java.util.Map;
 import java.util.Queue;
-import java.util.concurrent.*;
-import java.util.function.Consumer;
-import java.util.function.Supplier;
-import java.util.stream.Stream;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.ConcurrentLinkedQueue;
 
 @ApplicationScoped
 @JBossLog
@@ -28,7 +17,6 @@ public class KafkaDataService extends AbstractKafkaConsumerService {
 
 //     topic -> Queue of Sessions
     private Map<String, Queue<Session>> connections = new ConcurrentHashMap<>();
-
 
     public void registerClient(Session session, String topic){
         //is topic already subscribed
@@ -55,9 +43,6 @@ public class KafkaDataService extends AbstractKafkaConsumerService {
         }
     }
 
-
-
-    @Override
     protected void processRecord(final ConsumerRecord<String, String> consumerRecord) {
 
         Queue<Session> sessions = this.connections.get(consumerRecord.topic());
@@ -74,8 +59,21 @@ public class KafkaDataService extends AbstractKafkaConsumerService {
 
     }
 
-//todo
+    /**
+     * Use clientId in groupId to prevent clustering
+     * @param clientId
+     * @param groupName
+     * @return
+     */
+    @Override
+    protected String getGroupId(String clientId, String groupName) {
+        return groupName + "/" + clientId;
+    }
 
+
+
+//todo: create SSE endpoint
+//
 //    public Multi<String> sseStreamForId(final String extensionId) {
 //        return Multi.createFrom().items(new Supplier<Stream<? extends String>>() {
 //            @Override
