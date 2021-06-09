@@ -6,7 +6,7 @@ quarkus:
     always-include: true
 
 kafka:
-  bootstrap-servers: "193.26.156.80:9092"
+  bootstrap-servers: "136.243.131.9:9092"
   poll-records: 100
   auto-commit: true
   offset-reset: "earliest"
@@ -15,6 +15,9 @@ kafka:
 
 
 "%dev":
+  kafka:
+    bootstrap-servers: "193.26.156.80:9092"
+
   quarkus:
     swagger-ui:
       always-include: true
